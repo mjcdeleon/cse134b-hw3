@@ -1,8 +1,8 @@
 :root {
-  --color-ink: #3d3327;          /* main text color */
-  --color-accent: #a15c1a;       /* warm cheddar-rind brown */
-  --color-bg: #fbf7ef;           /* pale cream page background */
-  --color-panel: #f6ead2;        /* background for warning / quote panels */
-  --font-body: Georgia, "Times New Roman", serif;
-  --content-width: 72%;          /* layout value, consumed in cheese.css */
+  --color-ink: #2b3440;
+  --color-accent: #3f6fa8;
+  --color-bg: #f7f9fc;
+  --color-panel: #e2ebf5;
+  --font-body: Palatino, "Palatino Linotype", Georgia, serif;
+  --content-width: 72%; 
 }
