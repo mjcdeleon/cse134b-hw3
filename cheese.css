@@ -1,0 +1,160 @@
+/* website link: */
+
+@import url("variables.css");
+
+/* ---- Global reset ---- */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  line-height: 1.6;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-accent); 
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.75rem;
+}
+
+
+header p {
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+
+article > p {
+  font-size: 1.15rem;
+  margin: 1.5rem 0;
+}
+
+section p {
+  margin: 0.75rem 0;
+}
+
+
+.latin {
+  font-weight: bold;
+}
+
+
+[lang="la"] {
+  font-style: italic;
+}
+
+
+[type="text"] {
+  padding: 0.25em 0.5em;
+  border: 1px solid var(--color-accent);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+
+#warning {
+  background: var(--color-panel);
+  border: 2px solid var(--color-accent);
+  padding: 1em;
+  font-weight: bold;
+}
+
+
+dt {
+  font-weight: bold;
+  color: var(--color-accent);
+  margin: 1rem 0 0.25rem;
+}
+
+
+dt::before {
+  content: "🧀 ";
+}
+
+
+dt + dd {
+  margin: 0 0 0 1.5rem;
+  border-left: 3px solid var(--color-panel);
+  padding: 0 0 0 0.75em;
+}
+
+
+blockquote {
+  background: var(--color-panel);
+  border-left: 4px solid var(--color-accent);
+  font-size: 1.1rem;
+  padding: 1em 1.5em;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+blockquote footer {
+  font-size: 0.8em;
+  font-style: normal;
+  margin: 0.75em 0 0;
+}
+
+/* Form bits */
+fieldset {
+  border: 1px solid var(--color-accent);
+  padding: 1em;
+  margin: 1rem 0;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.25em 0.75em;
+  border: 1px solid var(--color-accent);
+  background: var(--color-panel);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+
+a:hover {
+  text-decoration: none;
+  background: var(--color-panel);
+}
+
+
+a:focus,
+input:focus,
+button:focus {
+  background: var(--color-panel);
+}
+
+
+input:checked + label {
+  font-weight: bold;
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+
+body > footer {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
